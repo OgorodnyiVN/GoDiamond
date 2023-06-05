@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css?_v=20230605191214" />
+	<link rel="stylesheet" href="css/style.min.css?_v=20230605191214">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header header--position">
+			<div class="container flex header__container">
+				<a class="logo">
+					<img src="img/icons/header__logo.svg" alt="Recidiviz Logo">
+				</a>
+				<nav class="nav flex" title="Main navigation" data-menu>
+					<ul class="list-reset nav__list flex">
+						<li class="nav__item"><a href="#" class="nav__link">Главная</a></li>
+						<li class="nav__item"><a href="#" class="nav__link">О нас</a></li>
+						<li class="nav__item"><a href="#" class="nav__link">Бизнес с GoDiamond</a></li>
+						<li class="nav__item"><a href="#" class="nav__link">Магазин</a></li>
+						<li class="nav__item"><a href="#" class="nav__link">Продукция</a></li>
+					</ul>
+					<ul class="nav__list--select">
+						<select name="form[]" class="form">
+							<option value="1" selected>USD</option>
+							<option value="2">RUS</option>
+							<option value="3">BYN</option>
+						</select>
+						<div class="select__line"></div>
+						<select name="form[]" class="form">
+							<option value="1" selected>RUS</option>
+							<option value="2">USD</option>
+							<option value="3">BYN</option>
+						</select>
+					</ul>
+				</nav>
+				<button class="burger" aria-label="Открыть меню" aria-expanded="false" data-burger>
+					<span class="burger__line"></span>
+					<span class="burger__line"></span>
+					<span class="burger__line"></span>
+				</button>
+				<a href="#" class="nav__log">Войти</a>
+			</div>
+		</header>
+		<main class="page">
+
+			<section class="getcar main__getcar">
+				<div class="getcar__container">
+					<div class="getcar__inner">
+						<div class="getcar__swiper swiper">
+							<div class="getcar__swiper-wrapper swiper-wrapper">
+								<div class="getcar__swiper-slide swiper-slide">
+									<picture>
+										<source srcset="img/getcar__img.jpg" media="(min-width: 768px)" />
+										<source srcset="img/getcar__img--mobi.jpg" media="(min-width: 320px)" />
+										<img src="img/getcar__img.jpg" />
+									</picture>
+									<div class="getcar__swiper-content">
+										<h1 class="getcar__swiper-title">Получи автомобиль <span>Hyundai Creta</span> от компании
+										</h1>
+										<div class="getcar__swiper-bottom">
+											<p class="getcar__swiper-subtitle">Lorem ipsum dolor sit amet consectetur. Lorem donec
+												suspendisse turpis senectus sed. Sed neque ipsum eu ullamcorper. Ut
+												et venenatis elit ac lacinia. Est sed ornare quam.</p>
+											<button class="getcar__swiper-btn redbtn">Подробнее</button>
+										</div>
+									</div>
+								</div>
+								<div class="getcar__swiper-slide swiper-slide">
+									<picture>
+										<source srcset="img/getcar__img.jpg" media="(min-width: 768px)" />
+										<source srcset="img/getcar__img--mobi.jpg" media="(min-width: 320px)" />
+										<img src="img/getcar__img.jpg" />
+									</picture>
+									<div class="getcar__swiper-content">
+										<h1 class="getcar__swiper-title">Получи автомобиль <span>Hyundai Creta</span> от компании
+										</h1>
+										<div class="getcar__swiper-bottom">
+											<p class="getcar__swiper-subtitle">Lorem ipsum dolor sit amet consectetur. Lorem donec
+												suspendisse turpis
+												senectus sed. Sed neque ipsum eu ullamcorper. Ut
+												et venenatis elit ac lacinia. Est sed ornare quam.</p>
+											<button class="getcar__swiper-btn redbtn">Подробнее</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="getcar__swiper-pagination swiper-pagination custom-swiper-pagination"></div>
+							<div class="getcar__button-next swiper-button-next custom-button-next"></div>
+							<div class="getcar__button-prev swiper-button-prev custom-button-prev"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="promotions main__promotions">
+				<div class="promotions__container">
+					<div class="promotions__inner">
+						<div class="title__heading promotions__heading">
+							<h1 class="heading__title promotions__title">Промо акции</h1>
+						</div>
+
+						<div class="promotions__sliders">
+							<!-- Оболочка слайдера -->
+							<div class="promotions__slider swiper">
+								<!-- Двигающееся часть слайдера -->
+								<div class="promotions__wrapper swiper-wrapper">
+									<!-- Слайд -->
+									<div class="promotions__slide swiper-slide">
+										<picture>
+											<source srcset="img/promo/promo__img1.webp" type="image/webp"><img
+												src="img/promo/promo__img1.png" alt="">
+										</picture>
+									</div>
+									<div class="promotions__slide swiper-slide">
+										<picture>
+											<source srcset="img/promo/promo__img2.webp" type="image/webp"><img
+												src="img/promo/promo__img2.png" alt="">
+										</picture>
+									</div>
+									<div class="promotions__slide swiper-slide">
+										<picture>
+											<source srcset="img/promo/promo__img2.webp" type="image/webp"><img
+												src="img/promo/promo__img2.png" alt="">
+										</picture>
+									</div>
+									<div class="promotions__slide swiper-slide">
+										<picture>
+											<source srcset="img/promo/promo__img2.webp" type="image/webp"><img
+												src="img/promo/promo__img2.png" alt="">
+										</picture>
+									</div>
+								</div>
+							</div>
+
+							<div class="promotions__swiper-pagination swiper-pagination custom-swiper-pagination"></div>
+							<div class="promotions__swiper-navigation swipper-navigation custom-swipper-navigation">
+								<button type="button"
+									class="promotions__button-prev swiper-button-prev custom-button-prev"></button>
+								<button type="button"
+									class="promotions__button-next swiper-button-next custom-button-next"></button>
+							</div>
+						</div>
+
+						<a class="promotions__redbtn redbtn" href="#">Все акции</a>
+					</div>
+				</div>
+			</section>
+			<section class="business main__business">
+				<div class="business__inner">
+					<div class="business__container">
+						<div class="title__heading business__heading">
+							<h2 class="heading__title business__title">Делай <span>бизнес</span> с нами</h2>
+							<p class="heading__subtitle business__subtitle">Решив однажды <span>строить бизнес</span> в
+								партнерстве с компанией <span>GoDiamond</span>,
+								вы будете приятно удивлены тому, что это намного больше, чем просто бизнес.</p>
+						</div>
+						<div class="business__grid-block">
+							<div class="business-grid-item business-grid-item1">
+								<p class="business-grid-item--text">Путешествия и подарки</p>
+							</div>
+							<div class="business-grid-item business-grid-item2">
+								<p class="business-grid-item--text">Качественная продукция</p>
+							</div>
+							<div class="business-grid-item business-grid-item3">
+								<p class="business-grid-item--text">Качественная
+									система</p>
+							</div>
+							<div class="business-grid-item business-grid-item4">
+								<p class="business-grid-item--text">Карьерный рост и возможности</p>
+							</div>
+						</div>
+						<a class="business__redbtn redbtn" href="#">Начать бизнес</a>
+					</div>
+				</div>
+			</section>
+			<section class="bonus main__bonus">
+				<div class="bonus__container">
+					<div class="bonus__inner">
+						<div class="title__heading bonus__heading">
+							<h2 class="heading__title bonus__title">Какие <span>бонусы</span> ждут тебя</h2>
+						</div>
+						<ul class="bonus__cards--list">
+							<li class="bonus__cards--item bonus__cards--auto">
+								<h3 class="bonus__cards--title">
+									АВТО
+								</h3>
+								<p class="bonus__cards--subtitle">
+									Lorem ipsum dolor sit amet consectetur. Odio proin odio scelerisque morbi at auctor.
+								</p>
+							</li>
+							<li class="bonus__cards--item bonus__cards--travel">
+								<h3 class="bonus__cards--title">
+									TRAVEL
+								</h3>
+								<p class="bonus__cards--subtitle">
+									Lorem ipsum dolor sit amet consectetur. Odio proin odio scelerisque morbi at auctor.
+								</p>
+							</li>
+							<li class="bonus__cards--item bonus__cards--home">
+								<h3 class="bonus__cards--title">
+									ЖИЛЬЕ
+								</h3>
+								<p class="bonus__cards--subtitle">
+									Lorem ipsum dolor sit amet consectetur. Odio proin odio scelerisque morbi at auctor.
+								</p>
+							</li>
+						</ul>
+						<a class="bonus__redbtn redbtn" href="#">Связаться с нами</a>
+					</div>
+				</div>
+			</section>
+			<section class="products main__products">
+				<div class="products__container">
+					<div class="products__inner">
+						<div class="title__heading products__heading">
+							<h2 class="heading__title products__title">Продукции компании</h2>
+						</div>
+
+
+						<div class="products__sliders">
+							<!-- Оболочка слайдера -->
+							<div class="products__slider swiper">
+								<!-- Двигающееся часть слайдера -->
+								<div class="products__wrapper swiper-wrapper">
+									<!-- Слайд -->
+									<div class="products__slide swiper-slide">
+										<div class="products__img--box">
+											<picture>
+												<source srcset="img/products/tablet__img.webp" type="image/webp"><img
+													class="products__img" src="img/products/tablet__img.png" alt="">
+											</picture>
+										</div>
+										<div class="products__info">
+											<p class="products__info--unavailable">
+												Нет в наличии
+											</p>
+											<div class="rating rating_set">
+												<div class="rating__body">
+													<div class="rating__active"></div>
+													<div class="rating__items">
+														<input type="radio" class="rating__item" value="1" name="rating">
+														<input type="radio" class="rating__item" value="2" name="rating">
+														<input type="radio" class="rating__item" value="3" name="rating">
+														<input type="radio" class="rating__item" value="4" name="rating">
+														<input type="radio" class="rating__item" value="5" name="rating">
+													</div>
+												</div>
+												<div class="rating__ot">Отзывы (<div class="rating__value"></div>)</div>
+											</div>
+											<p class="products__info--name">
+												Наименование продукта
+											</p>
+										</div>
+										<div class="products__price--box">
+											<div class="products__price">
+												<p class="products__price--sale">
+													15 000 kzt
+												</p>
+												<p class="products__price--actual">
+													10 000 kzt
+												</p>
+											</div>
+											<div class="products__basket">
+												<button class="products__basket--btn">
+													<svg width="19" height="17" viewBox="0 0 19 17" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path
+															d="M11.4574 16.6667C12.01 16.6667 12.5399 16.4472 12.9306 16.0565C13.3213 15.6658 13.5408 15.1359 13.5408 14.5833C13.5408 14.0308 13.3213 13.5009 12.9306 13.1102C12.5399 12.7195 12.01 12.5 11.4574 12.5C10.9049 12.5 10.375 12.7195 9.9843 13.1102C9.59359 13.5009 9.3741 14.0308 9.3741 14.5833C9.3741 15.1359 9.59359 15.6658 9.9843 16.0565C10.375 16.4472 10.9049 16.6667 11.4574 16.6667ZM4.16577 16.6667C4.7183 16.6667 5.24821 16.4472 5.63891 16.0565C6.02961 15.6658 6.2491 15.1359 6.2491 14.5833C6.2491 14.0308 6.02961 13.5009 5.63891 13.1102C5.24821 12.7195 4.7183 12.5 4.16577 12.5C3.61323 12.5 3.08333 12.7195 2.69263 13.1102C2.30193 13.5009 2.08243 14.0308 2.08243 14.5833C2.08243 15.1359 2.30193 15.6658 2.69263 16.0565C3.08333 16.4472 3.61323 16.6667 4.16577 16.6667ZM17.747 2.00312C18.0071 1.99474 18.2536 1.88554 18.4346 1.69863C18.6156 1.51171 18.7168 1.26174 18.7168 1.00156C18.7168 0.741387 18.6156 0.491411 18.4346 0.304497C18.2536 0.117584 18.0071 0.0083873 17.747 0H16.5481C15.6085 0 14.796 0.652083 14.5918 1.56875L13.2866 7.44583C13.0824 8.3625 12.2699 9.01458 11.3304 9.01458H3.50535L2.00327 3.00417H11.7376C11.9952 2.99241 12.2384 2.88181 12.4165 2.69537C12.5946 2.50892 12.694 2.26099 12.694 2.00312C12.694 1.74526 12.5946 1.49733 12.4165 1.31088C12.2384 1.12444 11.9952 1.01384 11.7376 1.00208H2.00327C1.69875 1.00199 1.39823 1.07133 1.12453 1.20483C0.850839 1.33832 0.611185 1.53246 0.423786 1.77248C0.236388 2.01251 0.106178 2.29209 0.0430578 2.59C-0.0200627 2.8879 -0.0144327 3.19627 0.0595186 3.49167L1.5616 9.5C1.66989 9.93354 1.92003 10.3184 2.27224 10.5934C2.62444 10.8684 3.05849 11.0178 3.50535 11.0177H11.3304C12.242 11.0178 13.1265 10.707 13.8376 10.1366C14.5488 9.56612 15.0441 8.77019 15.2418 7.88021L16.5481 2.00312H17.747Z"
+															fill="black" />
+													</svg>
+													В корзину
+												</button>
+											</div>
+										</div>
+									</div>
+									<div class="products__slide swiper-slide">
+										<div class="products__img--box">
+											<picture>
+												<source srcset="img/products/tablet__img.webp" type="image/webp"><img
+													class="products__img" src="img/products/tablet__img.png" alt="">
+											</picture>
+										</div>
+										<div class="products__info">
+											<p class="products__info--unavailable">
+												Нет в наличии
+											</p>
+											<div class="rating rating_set">
+												<div class="rating__body">
+													<div class="rating__active"></div>
+													<div class="rating__items">
+														<input type="radio" class="rating__item" value="1" name="rating">
+														<input type="radio" class="rating__item" value="2" name="rating">
+														<input type="radio" class="rating__item" value="3" name="rating">
+														<input type="radio" class="rating__item" value="4" name="rating">
+														<input type="radio" class="rating__item" value="5" name="rating">
+													</div>
+												</div>
+												<div class="rating__ot">Отзывы (<div class="rating__value"></div>)</div>
+											</div>
+											<p class="products__info--name">
+												Наименование продукта
+											</p>
+										</div>
+										<div class="products__price--box">
+											<div class="products__price">
+												<p class="products__price--sale">
+													15 000 kzt
+												</p>
+												<p class="products__price--actual">
+													10 000 kzt
+												</p>
+											</div>
+											<div class="products__basket">
+												<button class="products__basket--btn">
+													<svg width="19" height="17" viewBox="0 0 19 17" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path
+															d="M11.4574 16.6667C12.01 16.6667 12.5399 16.4472 12.9306 16.0565C13.3213 15.6658 13.5408 15.1359 13.5408 14.5833C13.5408 14.0308 13.3213 13.5009 12.9306 13.1102C12.5399 12.7195 12.01 12.5 11.4574 12.5C10.9049 12.5 10.375 12.7195 9.9843 13.1102C9.59359 13.5009 9.3741 14.0308 9.3741 14.5833C9.3741 15.1359 9.59359 15.6658 9.9843 16.0565C10.375 16.4472 10.9049 16.6667 11.4574 16.6667ZM4.16577 16.6667C4.7183 16.6667 5.24821 16.4472 5.63891 16.0565C6.02961 15.6658 6.2491 15.1359 6.2491 14.5833C6.2491 14.0308 6.02961 13.5009 5.63891 13.1102C5.24821 12.7195 4.7183 12.5 4.16577 12.5C3.61323 12.5 3.08333 12.7195 2.69263 13.1102C2.30193 13.5009 2.08243 14.0308 2.08243 14.5833C2.08243 15.1359 2.30193 15.6658 2.69263 16.0565C3.08333 16.4472 3.61323 16.6667 4.16577 16.6667ZM17.747 2.00312C18.0071 1.99474 18.2536 1.88554 18.4346 1.69863C18.6156 1.51171 18.7168 1.26174 18.7168 1.00156C18.7168 0.741387 18.6156 0.491411 18.4346 0.304497C18.2536 0.117584 18.0071 0.0083873 17.747 0H16.5481C15.6085 0 14.796 0.652083 14.5918 1.56875L13.2866 7.44583C13.0824 8.3625 12.2699 9.01458 11.3304 9.01458H3.50535L2.00327 3.00417H11.7376C11.9952 2.99241 12.2384 2.88181 12.4165 2.69537C12.5946 2.50892 12.694 2.26099 12.694 2.00312C12.694 1.74526 12.5946 1.49733 12.4165 1.31088C12.2384 1.12444 11.9952 1.01384 11.7376 1.00208H2.00327C1.69875 1.00199 1.39823 1.07133 1.12453 1.20483C0.850839 1.33832 0.611185 1.53246 0.423786 1.77248C0.236388 2.01251 0.106178 2.29209 0.0430578 2.59C-0.0200627 2.8879 -0.0144327 3.19627 0.0595186 3.49167L1.5616 9.5C1.66989 9.93354 1.92003 10.3184 2.27224 10.5934C2.62444 10.8684 3.05849 11.0178 3.50535 11.0177H11.3304C12.242 11.0178 13.1265 10.707 13.8376 10.1366C14.5488 9.56612 15.0441 8.77019 15.2418 7.88021L16.5481 2.00312H17.747Z"
+															fill="black" />
+													</svg>
+													В корзину
+												</button>
+											</div>
+										</div>
+									</div>
+									<div class="products__slide swiper-slide">
+										<div class="products__img--box">
+											<picture>
+												<source srcset="img/products/tablet__img.webp" type="image/webp"><img
+													class="products__img" src="img/products/tablet__img.png" alt="">
+											</picture>
+										</div>
+										<div class="products__info">
+											<p class="products__info--available">
+												В наличии
+											</p>
+											<div class="rating rating_set">
+												<div class="rating__body">
+													<div class="rating__active"></div>
+													<div class="rating__items">
+														<input type="radio" class="rating__item" value="1" name="rating">
+														<input type="radio" class="rating__item" value="2" name="rating">
+														<input type="radio" class="rating__item" value="3" name="rating">
+														<input type="radio" class="rating__item" value="4" name="rating">
+														<input type="radio" class="rating__item" value="5" name="rating">
+													</div>
+												</div>
+												<div class="rating__ot">Отзывы (<div class="rating__value"></div>)</div>
+											</div>
+											<p class="products__info--name">
+												Наименование продукта
+											</p>
+										</div>
+										<div class="products__price--box">
+											<div class="products__price">
+												<p class="products__price--sale">
+													15 000 kzt
+												</p>
+												<p class="products__price--actual">
+													10 000 kzt
+												</p>
+											</div>
+											<div class="products__basket">
+												<button class="products__basket--btn">
+													<svg width="19" height="17" viewBox="0 0 19 17" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path
+															d="M11.4574 16.6667C12.01 16.6667 12.5399 16.4472 12.9306 16.0565C13.3213 15.6658 13.5408 15.1359 13.5408 14.5833C13.5408 14.0308 13.3213 13.5009 12.9306 13.1102C12.5399 12.7195 12.01 12.5 11.4574 12.5C10.9049 12.5 10.375 12.7195 9.9843 13.1102C9.59359 13.5009 9.3741 14.0308 9.3741 14.5833C9.3741 15.1359 9.59359 15.6658 9.9843 16.0565C10.375 16.4472 10.9049 16.6667 11.4574 16.6667ZM4.16577 16.6667C4.7183 16.6667 5.24821 16.4472 5.63891 16.0565C6.02961 15.6658 6.2491 15.1359 6.2491 14.5833C6.2491 14.0308 6.02961 13.5009 5.63891 13.1102C5.24821 12.7195 4.7183 12.5 4.16577 12.5C3.61323 12.5 3.08333 12.7195 2.69263 13.1102C2.30193 13.5009 2.08243 14.0308 2.08243 14.5833C2.08243 15.1359 2.30193 15.6658 2.69263 16.0565C3.08333 16.4472 3.61323 16.6667 4.16577 16.6667ZM17.747 2.00312C18.0071 1.99474 18.2536 1.88554 18.4346 1.69863C18.6156 1.51171 18.7168 1.26174 18.7168 1.00156C18.7168 0.741387 18.6156 0.491411 18.4346 0.304497C18.2536 0.117584 18.0071 0.0083873 17.747 0H16.5481C15.6085 0 14.796 0.652083 14.5918 1.56875L13.2866 7.44583C13.0824 8.3625 12.2699 9.01458 11.3304 9.01458H3.50535L2.00327 3.00417H11.7376C11.9952 2.99241 12.2384 2.88181 12.4165 2.69537C12.5946 2.50892 12.694 2.26099 12.694 2.00312C12.694 1.74526 12.5946 1.49733 12.4165 1.31088C12.2384 1.12444 11.9952 1.01384 11.7376 1.00208H2.00327C1.69875 1.00199 1.39823 1.07133 1.12453 1.20483C0.850839 1.33832 0.611185 1.53246 0.423786 1.77248C0.236388 2.01251 0.106178 2.29209 0.0430578 2.59C-0.0200627 2.8879 -0.0144327 3.19627 0.0595186 3.49167L1.5616 9.5C1.66989 9.93354 1.92003 10.3184 2.27224 10.5934C2.62444 10.8684 3.05849 11.0178 3.50535 11.0177H11.3304C12.242 11.0178 13.1265 10.707 13.8376 10.1366C14.5488 9.56612 15.0441 8.77019 15.2418 7.88021L16.5481 2.00312H17.747Z"
+															fill="black" />
+													</svg>
+													В корзину
+												</button>
+											</div>
+										</div>
+									</div>
+									<div class="products__slide swiper-slide">
+										<div class="products__img--box">
+											<picture>
+												<source srcset="img/products/tablet__img.webp" type="image/webp"><img
+													class="products__img" src="img/products/tablet__img.png" alt="">
+											</picture>
+										</div>
+										<div class="products__info">
+											<p class="products__info--unavailable">
+												Нет в наличии
+											</p>
+											<div class="rating rating_set">
+												<div class="rating__body">
+													<div class="rating__active"></div>
+													<div class="rating__items">
+														<input type="radio" class="rating__item" value="1" name="rating">
+														<input type="radio" class="rating__item" value="2" name="rating">
+														<input type="radio" class="rating__item" value="3" name="rating">
+														<input type="radio" class="rating__item" value="4" name="rating">
+														<input type="radio" class="rating__item" value="5" name="rating">
+													</div>
+												</div>
+												<div class="rating__ot">Отзывы (<div class="rating__value"></div>)</div>
+											</div>
+											<p class="products__info--name">
+												Наименование продукта
+											</p>
+										</div>
+										<div class="products__price--box">
+											<div class="products__price">
+												<p class="products__price--sale">
+													15 000 kzt
+												</p>
+												<p class="products__price--actual">
+													10 000 kzt
+												</p>
+											</div>
+											<div class="products__basket">
+												<button class="products__basket--btn">
+													<svg width="19" height="17" viewBox="0 0 19 17" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path
+															d="M11.4574 16.6667C12.01 16.6667 12.5399 16.4472 12.9306 16.0565C13.3213 15.6658 13.5408 15.1359 13.5408 14.5833C13.5408 14.0308 13.3213 13.5009 12.9306 13.1102C12.5399 12.7195 12.01 12.5 11.4574 12.5C10.9049 12.5 10.375 12.7195 9.9843 13.1102C9.59359 13.5009 9.3741 14.0308 9.3741 14.5833C9.3741 15.1359 9.59359 15.6658 9.9843 16.0565C10.375 16.4472 10.9049 16.6667 11.4574 16.6667ZM4.16577 16.6667C4.7183 16.6667 5.24821 16.4472 5.63891 16.0565C6.02961 15.6658 6.2491 15.1359 6.2491 14.5833C6.2491 14.0308 6.02961 13.5009 5.63891 13.1102C5.24821 12.7195 4.7183 12.5 4.16577 12.5C3.61323 12.5 3.08333 12.7195 2.69263 13.1102C2.30193 13.5009 2.08243 14.0308 2.08243 14.5833C2.08243 15.1359 2.30193 15.6658 2.69263 16.0565C3.08333 16.4472 3.61323 16.6667 4.16577 16.6667ZM17.747 2.00312C18.0071 1.99474 18.2536 1.88554 18.4346 1.69863C18.6156 1.51171 18.7168 1.26174 18.7168 1.00156C18.7168 0.741387 18.6156 0.491411 18.4346 0.304497C18.2536 0.117584 18.0071 0.0083873 17.747 0H16.5481C15.6085 0 14.796 0.652083 14.5918 1.56875L13.2866 7.44583C13.0824 8.3625 12.2699 9.01458 11.3304 9.01458H3.50535L2.00327 3.00417H11.7376C11.9952 2.99241 12.2384 2.88181 12.4165 2.69537C12.5946 2.50892 12.694 2.26099 12.694 2.00312C12.694 1.74526 12.5946 1.49733 12.4165 1.31088C12.2384 1.12444 11.9952 1.01384 11.7376 1.00208H2.00327C1.69875 1.00199 1.39823 1.07133 1.12453 1.20483C0.850839 1.33832 0.611185 1.53246 0.423786 1.77248C0.236388 2.01251 0.106178 2.29209 0.0430578 2.59C-0.0200627 2.8879 -0.0144327 3.19627 0.0595186 3.49167L1.5616 9.5C1.66989 9.93354 1.92003 10.3184 2.27224 10.5934C2.62444 10.8684 3.05849 11.0178 3.50535 11.0177H11.3304C12.242 11.0178 13.1265 10.707 13.8376 10.1366C14.5488 9.56612 15.0441 8.77019 15.2418 7.88021L16.5481 2.00312H17.747Z"
+															fill="black" />
+													</svg>
+													В корзину
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="products__swiper-pagination swiper-pagination custom-swiper-pagination"></div>
+							<div class="products__swiper-navigation swipper-navigation custom-swipper-navigation">
+								<button type="button"
+									class="products__button-prev swiper-button-prev custom-button-prev"></button>
+								<button type="button"
+									class="products__button-next swiper-button-next custom-button-next"></button>
+							</div>
+						</div>
+
+						<a class="products__redbtn redbtn" href="#">Перейти в магазин</a>
+
+					</div>
+				</div>
+			</section>
+			<section class="reviews main__reviews">
+				<div class="reviews__container">
+					<div class="reviews__inner">
+						<div class="reviews__video">
+							<div class="reviews__video--heading">
+								<h2 class="reviews__video--title">
+									1 034 845
+								</h2>
+								<div class="reviews__video--subtitle">
+									партнеров уже
+									в команде <span>GoDiamond</span>
+								</div>
+							</div>
+							<div class="reviews__video--sliders">
+								<!-- Оболочка слайдера -->
+								<div class="reviews__video--slider swiper">
+									<!-- Двигающееся часть слайдера -->
+									<div class="reviews__video--wrapper swiper-wrapper">
+										<!-- Слайд -->
+										<div class="reviews__video--slide swiper-slide">
+											<div class="item__video">
+												<video poster="img/poster__viedo.png" controls preload="metadata">
+													<source type="video/mp4" src="img/video/text-video.mp4">
+												</video>
+											</div>
+										</div>
+										<div class="reviews__video--slide swiper-slide">
+											<div class="item__video">
+												<video poster="img/poster__viedo.png" controls preload="metadata">
+													<source type="video/mp4" src="img/video/text-video.mp4">
+												</video>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="reviews__video--swiper-pagination swiper-pagination custom-swiper-pagination"></div>
+								<div class="reviews__video--swiper-navigation swipper-navigation custom-swipper-navigation">
+									<button type="button"
+										class="reviews__video--button-prev swiper-button-prev custom-button-prev"></button>
+									<button type="button"
+										class="reviews__video--button-next swiper-button-next custom-button-next"></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="reviewspart main__reviewspart">
+				<div class="reviewspart__container">
+					<div class="reviewspart__inner">
+						<div class="title__heading reviewspart__heading">
+							<h2 class="heading__title reviewspart__title">Отзывы наших счастливых партнеров
+								<span>GoDiamond</span>
+							</h2>
+						</div>
+
+						<div class="reviewspart__sliders">
+							<!-- Оболочка слайдера -->
+							<div class="reviewspart__slider swiper">
+								<!-- Двигающееся часть слайдера -->
+								<div class="reviewspart__wrapper swiper-wrapper">
+									<!-- Слайд -->
+									<div class="reviewspart__slide swiper-slide">
+										<div class="reviewspart__info--box">
+											<div class="reviewspart__info--data">
+												<div class="reviewspart__data--img">
+													<picture>
+														<source srcset="img/avatar.webp" type="image/webp"><img src="img/avatar.png"
+															alt="">
+													</picture>
+												</div>
+												<div class="reviewspart__data--info">
+													<p class="reviewspart__data--name">
+														Имя Фамилия
+													</p>
+													<p class="reviewspart__data--status">
+														Статус партнера
+													</p>
+												</div>
+											</div>
+											<p class="reviewspart__info--text">
+												Lorem ipsum dolor sit amet consectetur. Iaculis posuere mattis vulputate nunc nunc
+												urna neque. Gravida sit nisl arcu vel
+												nisi. In magna justo lorem neque aenean morbi id. Orci varius habitasse fames est
+											</p>
+										</div>
+									</div>
+									<div class="reviewspart__slide swiper-slide">
+										<div class="reviewspart__info--box">
+											<div class="reviewspart__info--data">
+												<div class="reviewspart__data--img">
+													<picture>
+														<source srcset="img/avatar.webp" type="image/webp"><img src="img/avatar.png"
+															alt="">
+													</picture>
+												</div>
+												<div class="reviewspart__data--info">
+													<p class="reviewspart__data--name">
+														Имя Фамилия
+													</p>
+													<p class="reviewspart__data--status">
+														Статус партнера
+													</p>
+												</div>
+											</div>
+											<p class="reviewspart__info--text">
+												Lorem ipsum dolor sit amet consectetur. Iaculis posuere mattis vulputate nunc nunc
+												urna neque. Gravida sit nisl arcu vel
+												nisi. In magna justo lorem neque aenean morbi id. Orci varius habitasse fames est
+											</p>
+										</div>
+									</div>
+									<div class="reviewspart__slide swiper-slide">
+										<div class="reviewspart__info--box">
+											<div class="reviewspart__info--data">
+												<div class="reviewspart__data--img">
+													<picture>
+														<source srcset="img/avatar.webp" type="image/webp"><img src="img/avatar.png"
+															alt="">
+													</picture>
+												</div>
+												<div class="reviewspart__data--info">
+													<p class="reviewspart__data--name">
+														Имя Фамилия
+													</p>
+													<p class="reviewspart__data--status">
+														Статус партнера
+													</p>
+												</div>
+											</div>
+											<p class="reviewspart__info--text">
+												Lorem ipsum dolor sit amet consectetur. Iaculis posuere mattis vulputate nunc nunc
+												urna neque. Gravida sit nisl arcu vel
+												nisi. In magna justo lorem neque aenean morbi id. Orci varius habitasse fames est
+											</p>
+										</div>
+									</div>
+									<div class="reviewspart__slide swiper-slide">
+										<div class="reviewspart__info--box">
+											<div class="reviewspart__info--data">
+												<div class="reviewspart__data--img">
+													<picture>
+														<source srcset="img/avatar.webp" type="image/webp"><img src="img/avatar.png"
+															alt="">
+													</picture>
+												</div>
+												<div class="reviewspart__data--info">
+													<p class="reviewspart__data--name">
+														Имя Фамилия
+													</p>
+													<p class="reviewspart__data--status">
+														Статус партнера
+													</p>
+												</div>
+											</div>
+											<p class="reviewspart__info--text">
+												Lorem ipsum dolor sit amet consectetur. Iaculis posuere mattis vulputate nunc nunc
+												urna neque. Gravida sit nisl arcu vel
+												nisi. In magna justo lorem neque aenean morbi id. Orci varius habitasse fames est
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="reviewspart__swiper-pagination swiper-pagination custom-swiper-pagination"></div>
+							<div class="reviewspart__swiper-navigation swipper-navigation custom-swipper-navigation">
+								<button type="button"
+									class="reviewspart__button-prev swiper-button-prev custom-button-prev"></button>
+								<button type="button"
+									class="reviewspart__button-next swiper-button-next custom-button-next"></button>
+							</div>
+						</div>
+						<a class="business__redbtn reviewspart__redbtn redbtn" href="#">Начать бизнес</a>
+					</div>
+				</div>
+			</section>
+			<section class="whatawaits main__whatawaits">
+				<div class="whatawaits__container">
+					<div class="whatawaits__inner">
+						<div class="title__heading whatawaits__heading">
+							<h2 class="heading__title whatawaits__title">Что ждет тебя в <span>GoDiamond</span></h2>
+						</div>
+						<div class="whatawaits__content">
+							<div class="whatawaits__feedback">
+								<div class="feedback__text">
+									<h3 class="feedback__title">
+										Теперь твоя очередь!
+									</h3>
+									<p class="feedback__subtitle">
+										Подключайся в ряды лидеров!
+									</p>
+								</div>
+								<form class="feedback__form" action="#">
+									<input class="feedback__input" type="text" placeholder="Как к вам обращаться">
+									<input data-inputmask="'mask': '+7 999 999 99 99'" class="feedback__input"
+										placeholder="+7 ___ ___ __ __ ">
+									<input class="feedback__input" type="text" placeholder="Ваш регион">
+									<button class="feedback__btn">
+										Оставить заявку
+									</button>
+								</form>
+							</div>
+							<div class="whatawaits__video">
+								<div class="item__videos">
+									<video poster="img/poster__viedo2.png" controls preload="metadata">
+										<source type="video/mp4" src="img/video/text-video.mp4">
+									</video>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="instagram main__instagram">
+				<div class="instagram__container">
+					<div class="instagram__inner">
+						<div class="title__heading instagram__heading">
+							<h2 class="heading__title instagram__title">Наш инстаграм</h2>
+							<p class="heading__subtitle instagram__subtitle">Следите за последними новостями компании в наших
+								социальных сетях!</p>
+						</div>
+						<div class="instagram__sliders">
+							<!-- Оболочка слайдера -->
+							<div class="instagram__slider swiper">
+								<!-- Двигающееся часть слайдера -->
+								<div class="instagram__wrapper swiper-wrapper">
+									<!-- Слайд -->
+									<div class="instagram__slide swiper-slide">
+										<div class="instagram__img--box">
+											<picture>
+												<source srcset="img/instagram/instagram__1.webp" type="image/webp"><img
+													src="img/instagram/instagram__1.png" alt="">
+											</picture>
+										</div>
+									</div>
+									<div class="instagram__slide swiper-slide">
+										<div class="instagram__img--box">
+											<picture>
+												<source srcset="img/instagram/instagram__2.webp" type="image/webp"><img
+													src="img/instagram/instagram__2.png" alt="">
+											</picture>
+										</div>
+									</div>
+									<div class="instagram__slide swiper-slide">
+										<div class="instagram__img--box">
+											<picture>
+												<source srcset="img/instagram/instagram__3.webp" type="image/webp"><img
+													src="img/instagram/instagram__3.png" alt="">
+											</picture>
+										</div>
+									</div>
+									<div class="instagram__slide swiper-slide">
+										<div class="instagram__img--box">
+											<picture>
+												<source srcset="img/instagram/instagram__1.webp" type="image/webp"><img
+													src="img/instagram/instagram__1.png" alt="">
+											</picture>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="instagram__swiper-pagination swiper-pagination custom-swiper-pagination"></div>
+							<div class="instagram__swiper-navigation swipper-navigation custom-swipper-navigation">
+								<button type="button"
+									class="instagram__button-prev swiper-button-prev custom-button-prev"></button>
+								<button type="button"
+									class="instagram__button-next swiper-button-next custom-button-next"></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__inner">
+					<div data-spollers="768,max" class="spollers">
+						<div class="spollers__item">
+							<button type="button" data-spoller="768,max" class="spollers__title">O КОМПАНИИ</button>
+							<div class="spollers__body">
+								<p>
+									<a class="spollers__link" href="#">О компании</a>
+								</p>
+								<p>
+									<a class="spollers__link" href="#">О нас</a>
+								</p>
+								<p>
+									<a class="spollers__link" href="#">Наша команда</a>
+								</p>
+								<p>
+									<a class="spollers__link" href="#">Интернет Магазин</a>
+								</p>
+							</div>
+						</div>
+						<div class="spollers__item">
+							<button type="button" data-spoller="768,max" class="spollers__title">ДЛЯ ПАРТНЕРОВ</button>
+							<div class="spollers__body">
+								<p>
+									<a class="spollers__link" href="#">Начни бизнес с GoDiamond</a>
+								</p>
+								<p>
+									<a class="spollers__link" href="#">Академия Smart System</a>
+								</p>
+								<p>
+									<a class="spollers__link" href="#">Клуб здоровье FAMILY</a>
+								</p>
+								<p>
+									<a class="spollers__link" href="#">Стать Партнером</a>
+								</p>
+								<p>
+									<a class="spollers__link" href="#">Личный кабинет</a>
+								</p>
+								<p>
+									<a class="spollers__link" href="#">Агентское соглашение</a>
+								</p>
+								<p>
+									<a class="spollers__link" href="#">Партнерская программа</a>
+								</p>
+								<p>
+									<a class="spollers__link" href="#">Скачать Презентацию</a>
+								</p>
+							</div>
+						</div>
+						<div class="spollers__item">
+							<button type="button" data-spoller="768,max" class="spollers__title">ДЛЯ КЛИЕНТОВ</button>
+							<div class="spollers__body">
+								<p>
+									<a class="spollers__link" href="#">О продукций</a>
+								</p>
+								<p>
+									<a class="spollers__link" href="#">Сертификаты</a>
+								</p>
+								<p>
+									<a class="spollers__link" href="#">Публичные оферта</a>
+								</p>
+								<p>
+									<a class="spollers__link" href="#">Оплата</a>
+								</p>
+								<p>
+									<a class="spollers__link" href="#">Достовка</a>
+								</p>
+								<p>
+									<a class="spollers__link" href="#">Обьмен и возврат</a>
+								</p>
+								<p>
+									<a class="spollers__link" href="#">Новинка и акция</a>
+								</p>
+								<p>
+									<a class="spollers__link" href="#">Хит продажа</a>
+								</p>
+								<p>
+									<a class="spollers__link" href="#">Скачать каталог</a>
+								</p>
+							</div>
+						</div>
+						<div class="spollers__item">
+							<button type="button" data-spoller="768,max" class="spollers__title">ПОДПИСАТЬСЯ НА
+								НОВОСТИ</button>
+							<div class="spollers__body">
+
+								<form class="spollers__form">
+									<input type="text" class="spollers__input" placeholder="E-mail адрес">
+									<button class="spollers__btn">Подписаться</button>
+								</form>
+
+								<p>
+									<a class="spollers__link" href="#">Хочу стать партнером</a>
+								</p>
+								<p>
+									<a class="spollers__link" href="#">Хочу стать региональным представителем</a>
+								</p>
+							</div>
+						</div>
+						<div class="spollers__item">
+							<button type="button" data-spoller="768,max" class="spollers__title">КОНТАКТЫ</button>
+							<div class="spollers__body">
+								<div class="spollers__addres">
+									<p>г. Алматы, ул. Кабанбай батыра 73 </p>
+									<p>+7 707 645 0624 </p>
+									<p>Infogodiamond@gmail.com </p>
+									<p>График: Пн-Пт 09:00-20:00 | Сб-Вс выходной</p>
+								</div>
+								<p class="spollers__soc-box">
+									<a class="spollers__soc-link" href="#">
+										<svg width="26" height="26" viewBox="0 0 26 26" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M22.2111 3.78307C21.0132 2.57917 19.5865 1.62464 18.014 0.975141C16.4415 0.325641 14.7548 -0.00582413 13.0523 7.74403e-05C5.91859 7.74403e-05 0.104523 5.78506 0.104523 12.883C0.104523 15.158 0.705528 17.368 1.82915 19.318L0 26L6.8593 24.206C8.75377 25.233 10.8834 25.779 13.0523 25.779C20.1859 25.779 26 19.994 26 12.896C26 9.45105 24.6543 6.21406 22.2111 3.78307ZM13.0523 23.595C11.1186 23.595 9.22412 23.075 7.56482 22.1L7.17286 21.866L3.09648 22.932L4.1809 18.98L3.9196 18.577C2.8453 16.8701 2.27486 14.897 2.27337 12.883C2.27337 6.98106 7.10754 2.17107 13.0392 2.17107C15.9136 2.17107 18.6181 3.28907 20.6432 5.31706C21.646 6.31021 22.4406 7.49152 22.9811 8.7925C23.5216 10.0935 23.7972 11.4883 23.792 12.896C23.8181 18.798 18.9839 23.595 13.0523 23.595ZM18.9578 15.587C18.6312 15.431 17.0372 14.651 16.7497 14.534C16.4492 14.43 16.2402 14.378 16.0181 14.69C15.796 15.015 15.1819 15.743 14.999 15.951C14.8161 16.172 14.6201 16.198 14.2935 16.029C13.9668 15.873 12.9216 15.522 11.6935 14.43C10.7266 13.572 10.0864 12.519 9.89045 12.194C9.70754 11.869 9.86432 11.7 10.0342 11.531C10.1779 11.388 10.3608 11.154 10.5176 10.972C10.6744 10.79 10.7397 10.647 10.8442 10.439C10.9487 10.218 10.8965 10.036 10.8181 9.88005C10.7397 9.72405 10.0864 8.13805 9.82512 7.48806C9.56382 6.86406 9.28945 6.94206 9.09347 6.92906H8.46633C8.24422 6.92906 7.90452 7.00706 7.60402 7.33206C7.31658 7.65705 6.4804 8.43705 6.4804 10.023C6.4804 11.609 7.64322 13.143 7.8 13.351C7.95678 13.572 10.0864 16.822 13.3266 18.213C14.0975 18.551 14.6985 18.746 15.1688 18.889C15.9397 19.136 16.6452 19.097 17.207 19.019C17.8342 18.928 19.1276 18.239 19.3889 17.485C19.6633 16.731 19.6633 16.094 19.5719 15.951C19.4804 15.808 19.2844 15.743 18.9578 15.587Z"
+												fill="black" />
+										</svg>
+									</a>
+									<a class="spollers__soc-link" href="#">
+										<svg width="26" height="26" viewBox="0 0 26 26" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M12.9997 0C5.97428 0 0.272461 5.70182 0.272461 12.7273C0.272461 19.7527 5.97428 25.4545 12.9997 25.4545C20.0252 25.4545 25.727 19.7527 25.727 12.7273C25.727 5.70182 20.0252 0 12.9997 0ZM18.9052 8.65455C18.7143 10.6655 17.887 15.5527 17.467 17.8055C17.2888 18.76 16.9325 19.0782 16.6016 19.1164C15.8634 19.18 15.3034 18.6327 14.5906 18.1618C13.4706 17.4236 12.8343 16.9655 11.7525 16.2527C10.4925 15.4255 11.307 14.9673 12.0325 14.2291C12.2234 14.0382 15.4816 11.0727 15.5452 10.8055C15.554 10.765 15.5529 10.7229 15.5418 10.683C15.5307 10.6431 15.51 10.6065 15.4816 10.5764C15.4052 10.5127 15.3034 10.5382 15.2143 10.5509C15.0997 10.5764 13.3179 11.76 9.84337 14.1018C9.33428 14.4455 8.8761 14.6236 8.46882 14.6109C8.01064 14.5982 7.14519 14.3564 6.4961 14.14C5.69428 13.8855 5.07064 13.7455 5.12155 13.3C5.14701 13.0709 5.46519 12.8418 6.06337 12.6C9.77973 10.9836 12.2488 9.91455 13.4834 9.40545C17.0216 7.92909 17.747 7.67454 18.2306 7.67454C18.3325 7.67454 18.5743 7.7 18.727 7.82727C18.8543 7.92909 18.8925 8.06909 18.9052 8.17091C18.8925 8.24727 18.9179 8.47636 18.9052 8.65455Z"
+												fill="black" />
+										</svg>
+									</a>
+									<a class="spollers__soc-link" href="#"><svg width="26" height="19" viewBox="0 0 26 19"
+											fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M10.7267 13.5456L17.3322 9.72745L10.7267 5.90927V13.5456ZM25.4395 3.58018C25.6049 4.17836 25.7195 4.98018 25.7958 5.99836C25.8849 7.01654 25.9231 7.89472 25.9231 8.65836L25.9995 9.72745C25.9995 12.5147 25.7958 14.5638 25.4395 15.8747C25.1213 17.0202 24.3831 17.7584 23.2376 18.0765C22.6395 18.242 21.5449 18.3565 19.8649 18.4329C18.2104 18.522 16.6958 18.5602 15.2958 18.5602L13.2722 18.6365C7.93947 18.6365 4.61765 18.4329 3.30674 18.0765C2.16129 17.7584 1.4231 17.0202 1.10492 15.8747C0.939467 15.2765 0.824922 14.4747 0.748558 13.4565C0.659467 12.4384 0.621285 11.5602 0.621285 10.7965L0.544922 9.72745C0.544922 6.94018 0.748558 4.89109 1.10492 3.58018C1.4231 2.43472 2.16129 1.69654 3.30674 1.37836C3.90492 1.2129 4.99947 1.09836 6.67947 1.022C8.33401 0.932905 9.84856 0.894723 11.2486 0.894723L13.2722 0.818359C18.6049 0.818359 21.9267 1.022 23.2376 1.37836C24.3831 1.69654 25.1213 2.43472 25.4395 3.58018Z"
+												fill="black" />
+										</svg>
+									</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<p class="copir">©Все права защищены. GoDiamond 2023</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js?_v=20230605191214"></script>
+	<script src="js/app.min.js?_v=20230605191214"></script>
+</body>
+
+</html>
